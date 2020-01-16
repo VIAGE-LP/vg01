@@ -186,6 +186,7 @@
 .future_btn:hover{
     opacity: 0.6;
 }
+
 .sns_btn {
     text-align: center;
 }
@@ -193,6 +194,15 @@
     display: inline-block;
     margin: 0 8px;
     cursor: pointer;
+}
+
+.NewyearInfo img{
+    width: 720px;
+}
+@media screen and (max-width: 768px){
+    .NewyearInfo img{
+        width: 100%;
+    }
 }
 
 .buybtn{
@@ -222,3 +232,4 @@
     display: block;
 }
 }
+
