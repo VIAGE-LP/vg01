@@ -90,15 +90,15 @@
     margin: 0 auto;
     position: relative;
     width: 1024px;
-    height: 722px;
+    height: 591px;
     background-position: center;
 }
 
 .set3_btn {
     position: absolute;
-    right: 256px;
-    width: 521px;
-    bottom: 56px;
+    right: 248px;
+    width: 542px;
+    bottom: 66px;
 }
 .set3_btn:hover{
     opacity: 0.8;
@@ -108,14 +108,14 @@
     margin: 0 auto;
     position: relative;
     width: 1024px;
-    height: 2252px;
+    height: 2564px;
     background-position: center;
 }
 .cta_3set_btn{
     position: absolute;
-    top: 578px;
-    left: 258px;
-    width: 520px;
+    top: 643px;
+    left: 175px;
+    width: 675px;
 }
 .cta_3set_btn:hover{
     opacity: 0.6;
@@ -123,36 +123,36 @@
 
 .cta_5set_btn{
     position: absolute;
-    top: 1181px;
-    left: 246px;
-    width: 539px;
+    top: 1289px;
+    left: 175px;
+    width: 675px;
 }
 .cta_5set_btn:hover{
     opacity: 0.6;
 }
 .cta_4set_btn{
     position: absolute;
-    top: 1756px;
-    left: 245px;
-    width: 539px;
+    top: 1937px;
+    left: 175px;
+    width: 675px;
 }
 .cta_4set_btn:hover{
     opacity: 0.6;
 }
 .cta_2set_btn{
     position: absolute;
-    bottom: 192px;
-    right: 248px;
-    width: 183px;
+    bottom: 239px;
+    right: 175px;
+    width: 272px;
 }
 .cta_2set_btn:hover{
     opacity: 0.6;
 }
 .cta_1set_btn{
     position: absolute;
-    bottom: 22px;
-    right: 243px;
-    width: 224px;
+    bottom: 45px;
+    right: 175px;
+    width: 272px;
 }
 .cta_1set_btn:hover{
     opacity: 0.8;
@@ -186,7 +186,6 @@
 .future_btn:hover{
     opacity: 0.6;
 }
-
 .sns_btn {
     text-align: center;
 }
@@ -195,7 +194,6 @@
     margin: 0 8px;
     cursor: pointer;
 }
-
 .NewyearInfo img{
     width: 720px;
 }
@@ -232,4 +230,3 @@
     display: block;
 }
 }
-
