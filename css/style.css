@@ -90,7 +90,7 @@
     margin: 0 auto;
     position: relative;
     width: 1024px;
-    height: 591px;
+    height: 585px;
     background-position: center;
 }
 
@@ -98,7 +98,7 @@
     position: absolute;
     right: 248px;
     width: 542px;
-    bottom: 66px;
+    bottom: 55px;
 }
 .set3_btn:hover{
     opacity: 0.8;
@@ -113,9 +113,9 @@
 }
 .cta_3set_btn{
     position: absolute;
-    top: 643px;
+    top: 1989px;
     left: 175px;
-    width: 675px;
+    width: 662px;
 }
 .cta_3set_btn:hover{
     opacity: 0.6;
@@ -123,36 +123,36 @@
 
 .cta_5set_btn{
     position: absolute;
-    top: 1289px;
+    top: 1326px;
     left: 175px;
-    width: 675px;
+    width: 662px;
 }
 .cta_5set_btn:hover{
     opacity: 0.6;
 }
 .cta_4set_btn{
     position: absolute;
-    top: 1937px;
+    top: 643px;
     left: 175px;
-    width: 675px;
+    width: 662px;
 }
 .cta_4set_btn:hover{
     opacity: 0.6;
 }
 .cta_2set_btn{
     position: absolute;
-    bottom: 239px;
-    right: 175px;
-    width: 272px;
+    bottom: 218px;
+    right: 189px;
+    width: 260px;
 }
 .cta_2set_btn:hover{
     opacity: 0.6;
 }
 .cta_1set_btn{
     position: absolute;
-    bottom: 45px;
-    right: 175px;
-    width: 272px;
+    bottom: 39px;
+    right: 189px;
+    width: 260px;
 }
 .cta_1set_btn:hover{
     opacity: 0.8;
