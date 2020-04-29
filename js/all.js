@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 圖片lozad
     const observer = lozad('.lozad', {
-        rootMargin: "5000px 0px"
+        rootMargin: "3500px 0px"
     });
     observer.observe();
     //navbar menu 收合
