@@ -1,9 +1,9 @@
 $(document).ready(function () {
     // 圖片lozad
-    // const observer = lozad('.lozad', {
-    //     rootMargin: "150px 0px"
-    // });
-    // observer.observe();
+    const observer = lozad('.lozad', {
+        rootMargin: "150px 0px"
+    });
+    observer.observe();
     //navbar menu 收合
     $('.navbar-nav>li>a').on('click', function(){
         $('.navbar-collapse').removeClass('show');
