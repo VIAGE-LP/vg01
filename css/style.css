@@ -84,96 +84,6 @@
     padding: 0.25rem 9px;
 }
 
-.countdown_box{
-    position: relative;
-}
-
-#countdown{
-    position: absolute;
-    top: 3%;
-    left:40%;
-    color:#BF467B;
-    font-size: 3rem;
-    font-weight: bold;
-}
-#countdown .unit{
-    font-size: 2.5rem;
-}
-
-@media screen and (max-width: 1366px){
-    #countdown{
-        top:4%;
-        font-size: 2rem;
-    }
-    #countdown .unit{
-        font-size: 1.5rem;
-    }
-}
-@media screen and (max-width: 1080px){
-    #countdown{
-        font-size: 1.6rem;
-    }
-    #countdown .unit{
-        font-size: 1.1rem;
-    }
-}
-@media screen and (max-width: 812px){
-    #countdown{
-        font-size: 1.2rem;
-    }
-    #countdown .unit{
-        font-size: 0.7rem;
-    }
-}
-@media screen and (max-width: 768px){
-    #countdown{
-        top: 0%;
-        left:2%;
-        font-size: 2.2rem;
-    }
-    #countdown .unit{
-        font-size: 1.3rem;
-    }
-    #countdown .SP_none{
-        display:none;
-    }
-    .SP_br{
-        display: block;
-    }
-}
-@media screen and (max-width: 667px){
-    #countdown{
-        font-size: 2rem;
-    }
-    #countdown .unit{
-        font-size: 1.3rem;
-    }
-}
-@media screen and (max-width: 600px){
-    #countdown{
-        font-size: 1.8rem;
-    }
-    #countdown .unit{
-        font-size: 1.1rem;
-    }
-}
-@media screen and (max-width: 414px){
-    #countdown{
-        left:1%;
-        top:1%;
-        font-size: 1.2rem;
-    }
-    #countdown .unit{
-        font-size: 0.7rem;
-    }
-}
-@media screen and (max-width: 375px){
-    #countdown{
-        font-size: 1.1rem;
-    }
-}
-
-
 /* PC */
 .set3{
     margin: 0 auto;
@@ -185,9 +95,9 @@
 
 .set3_btn {
     position: absolute;
-    right: 248px;
-    width: 542px;
-    bottom: 55px;
+    right: 238px;
+    width: 554px;
+    bottom: 63px;
 }
 .set3_btn:hover{
     opacity: 0.8;
