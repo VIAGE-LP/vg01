@@ -36,6 +36,11 @@ $(document).ready(function () {
             scrollTop: $('#section4').offset().top - 56,
         }, 500);
     });
+    $('.navbar-nav>li>a[href="#size"]').on('click', function () {
+        $('html,body').animate({
+            scrollTop: $('#size').offset().top - 56,
+        }, 500);
+    });
     $('a[href="#buy"]').on('click', function () {
         $('html,body').animate({
             scrollTop: $('#buy').offset().top + 150,
