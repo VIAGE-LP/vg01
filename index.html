@@ -69,6 +69,9 @@
     <link rel="stylesheet" href="css/nav.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120013759-3"></script>
     <script>
@@ -304,7 +307,7 @@
                     <img src="./img/01_banner.png" alt="">
                     <img src="./img/01_ver2.png" alt="">
                     <img class="anniversary_1" src="./img/01_ver1.png" alt="">
-                    <div class="anniversary_2">
+                    <div class="anniversary_2" style="display:none">
                         <img src="./img/detail.png" alt="">
                     </div>
                     <img src="./img/03.jpg" style="width:70%;" alt="">
@@ -312,12 +315,27 @@
                 </div>
                 <div class="SP">
                     <img class="SP_anniversary_1" src="./img/SP/SP_01_banner.png" alt="">
-                    <div class="SP_anniversary_2">
+                    <div class="SP_anniversary_2" style="display:none">
                         <img src="./img/SP/SP_detail.png" alt="">
                     </div>
                     <img src="./img/SP/SP_03.jpg" alt="">
                     <img src="./img/SP/SP_ig_title.jpg" alt="">
                 </div>
+
+                <!-- 彈跳視窗 -->
+                <script>
+                    //週年慶活動辦法下拉選單
+                    $(".anniversary_2 img,.anniversary_2, .SP_anniversary_2 img,.SP_anniversary_2").hide();
+                    $('.anniversary_1, .SP_anniversary_1').click(function (e) {
+                        e.preventDefault();
+                        $(".anniversary_2 img,.anniversary_2, .SP_anniversary_2 img,.SP_anniversary_2").attr("style", "display:block;");
+                    });
+                    $('.anniversary_2, .SP_anniversary_2').click(function (e) {
+                        e.preventDefault();
+                        $(".anniversary_2 img,.anniversary_2, .SP_anniversary_2 img,.SP_anniversary_2").hide();
+                    });
+                </script>
+
                 <section id="report">
                     <div class="container">
                         <div class="ig_slider"></div>
@@ -325,7 +343,7 @@
                 </section>
                 <div class="PC">
                     <div class="offerbox">
-                        <img src="./img/05_anniversary.jpg" style="width:70%;" alt="">
+                        <img src="./img/05.jpg" style="width:70%;" alt="">
                         <a href="#size">
                             <img class="offerbtn lozad" id="buy01" src="./img/offerbtn.jpg" alt="">
                         </a>
@@ -334,7 +352,7 @@
                     <img src="./img/07.jpg" style="width:70%;" alt="">
                     <img src="./img/08.jpg" style="width:70%;" alt="">
                     <div class="offerbox">
-                        <img src="./img/05_anniversary.jpg" style="width:70%;" alt="">
+                        <img src="./img/05.jpg" style="width:70%;" alt="">
                         <a href="#size">
                             <img class="offerbtn lozad" id="buy02" src="./img/offerbtn.jpg" alt="">
                         </a>
@@ -344,14 +362,14 @@
                     <img src="./img/12.jpg" style="width:70%;" alt="">
                     <img src="./img/13.jpg" style="width:70%;" alt="">
                     <div class="offerbox">
-                        <img src="./img/05_anniversary.jpg" style="width:70%;" alt="">
+                        <img src="./img/05.jpg" style="width:70%;" alt="">
                         <a href="#size">
                             <img class="offerbtn lozad" id="buy03" src="./img/offerbtn.jpg" alt="">
                         </a>
                     </div>
                     <img src="./img/15.jpg" style="width:70%;" alt="">
                     <div class="box16" style="width: 70%;background: white;margin: 0 auto;">
-                        <img src="./img/16.jpg" style="width:70%;" alt="">                    
+                        <img src="./img/16.jpg" style="width:70%;" alt="">
                     </div>
                     <img src="./img/17.jpg" style="width:70%;" alt="">
                     <img src="./img/18.jpg" style="width:70%;" alt="">
@@ -359,7 +377,7 @@
                 </div>
                 <div class="SP">
                     <div class="offerbox_m">
-                        <img src="./img/SP/SP_05_anniversary.jpg" alt="">
+                        <img src="./img/SP/SP_05.jpg" alt="">
                         <!-- <a href="#size">
                             <img class="offerbtn_m offerbtn_m_1 lozad" id="buy01-1" src="./img/offerbtn.jpg" alt="">
                         </a> -->
@@ -371,7 +389,7 @@
                     <img src="./img/SP/SP_07.jpg" alt="">
                     <img src="./img/SP/SP_08.jpg" alt="">
                     <div class="offerbox_m">
-                        <img src="./img/SP/SP_05_anniversary.jpg" alt="">
+                        <img src="./img/SP/SP_05.jpg" alt="">
                         <!-- <a href="#size">
                             <img class="offerbtn_m offerbtn_m_1 lozad" id="buy02-1" src="./img/offerbtn.jpg" alt="">
                         </a> -->
@@ -385,7 +403,7 @@
                     <img src="./img/SP/SP_13.jpg" alt="">
                     <img src="./img/SP/SP_14.jpg" alt="">
                     <div class="offerbox_m">
-                        <img src="./img/SP/SP_05_anniversary.jpg" alt="">
+                        <img src="./img/SP/SP_05.jpg" alt="">
                         <!-- <a href="#size">
                             <img class="offerbtn_m offerbtn_m_1 lozad" id="buy03-1" src="./img/offerbtn.jpg" alt="">
                         </a> -->
@@ -529,9 +547,6 @@
     </script>
 
     <!-- 網頁設計師編輯區塊 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -544,7 +559,6 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src='js/user_data.js'></script>
     <script src='js/ig.js'></script>
-    <!-- <script src="js/buybtn.js"></script> -->
     <script src="js/all.js"></script>
 </body>
 
