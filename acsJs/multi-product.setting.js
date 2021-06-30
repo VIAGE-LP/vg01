@@ -15,6 +15,9 @@ const PRODUCT_LIST = [
 			{ category1 : 'SL',  image_url : '商品圖/天空藍.jpg' },
 			{ category1 : 'HB',  image_url : '商品圖/異色黑.jpg' },
 			{ category1 : 'SG',  image_url : '商品圖/寧靜灰.jpg' },
+			{ category1 : 'PK',  image_url : '商品圖/微醺粉.jpg' },
+			{ category1 : 'MG',  image_url : '商品圖/莫蘭綠.jpg' },
+			{ category1 : 'AIR',  image_url : '商品圖/AIR黑.jpg' },
 
 	  ]
 	},
@@ -35,6 +38,9 @@ const CATEGORY_1_LIST = {
 		{ label: '請選擇顏色及數量<br>天空藍', value: 'SL', label_short: '天空藍' },
 		{ label: '請選擇顏色及數量<br>異色黑', value: 'HB', label_short: '異色黑' },
 		{ label: '請選擇顏色及數量<br>寧靜灰', value: 'SG', label_short: '寧靜灰' },
+		{ label: '請選擇顏色及數量<br>微醺粉', value: 'PK', label_short: '微醺粉' },
+		{ label: '請選擇顏色及數量<br>莫蘭綠', value: 'MG', label_short: '莫蘭綠' },
+		{ label: '請選擇顏色及數量<br>Air舒涼版 黑色', value: 'AIR', label_short: 'Air舒涼版 黑色' },
 	]
 };
 
@@ -108,6 +114,27 @@ const PRODUCT_CATEGORY_MAPPING = [
 			{ product_code : '4560449970884'  , category2 : 'ML' , category1 : 'SG' } ,
 			{ product_code : '4560449970891'  , category2 : 'L' , category1 : 'SG' } ,
 			{ product_code : '4560449970907'  , category2 : 'LL' , category1 : 'SG' } ,
+
+			{ product_code : '4560449971751'  , category2 : 'S' , category1 : 'PK' } ,
+			{ product_code : '4560449971768'  , category2 : 'SM' , category1 : 'PK' } ,
+			{ product_code : '4560449971775'  , category2 : 'M' , category1 : 'PK' } ,
+			{ product_code : '4560449971782'  , category2 : 'ML' , category1 : 'PK' } ,
+			{ product_code : '4560449971799'  , category2 : 'L' , category1 : 'PK' } ,
+            { product_code : '4560449971805'  , category2 : 'LL' , category1 : 'PK' } ,
+            
+			{ product_code : '4560449971812'  , category2 : 'S' , category1 : 'MG' } ,
+			{ product_code : '4560449971829'  , category2 : 'SM' , category1 : 'MG' } ,
+			{ product_code : '4560449971836'  , category2 : 'M' , category1 : 'MG' } ,
+			{ product_code : '4560449971843'  , category2 : 'ML' , category1 : 'MG' } ,
+			{ product_code : '4560449971850'  , category2 : 'L' , category1 : 'MG' } ,
+			{ product_code : '4560449971867'  , category2 : 'LL' , category1 : 'MG' } ,
+
+			{ product_code : '4560449971164'  , category2 : 'S' , category1 : 'AIR' } ,
+			{ product_code : '4560449971171'  , category2 : 'SM' , category1 : 'AIR' } ,
+			{ product_code : '4560449971188'  , category2 : 'M' , category1 : 'AIR' } ,
+			{ product_code : '4560449971195'  , category2 : 'ML' , category1 : 'AIR' } ,
+			{ product_code : '4560449971201'  , category2 : 'L' , category1 : 'AIR' } ,
+			{ product_code : '4560449971218'  , category2 : 'LL' , category1 : 'AIR' } ,
 	  ]
 	},
 	// 可複數
